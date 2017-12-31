@@ -7,7 +7,7 @@ The machine operates on an infinite memory tape divided in cells. The steps are:
 2. The machine reads the symbol in that cell.
 3. Depending on the state and the symbol read the turing machine write a symbol and changes its state.
 4. The Turing Machine moves the tape one cell right or left.
-
+5
 ## Author
 Ángel Luis Igareta Herráiz
 
@@ -31,8 +31,8 @@ The first argument reffers to the Turing Machine Table. Its syntax is:
 ```
 input-state symbol-to-read symbol-to-write movement next-state
 ```
----
 The second argument reffers to the Turing Machine's tape. Its syntax is a simple string.
+
 ---
 Once the program is started it will show a menu with 6 options:
 
